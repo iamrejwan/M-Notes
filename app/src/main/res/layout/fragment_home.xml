@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.DigitalUpload"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent">
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="400dp"
+           android:background="@drawable/header_shape" />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:orientation="vertical">
+           <com.google.android.material.appbar.AppBarLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <androidx.appcompat.widget.Toolbar
+                   android:layout_width="match_parent"
+                   android:background="@color/colorAccent"
+                   android:layout_height="?attr/actionBarSize"
+                   app:contentInsetStartWithNavigation="0dp"
+                   app:layout_scrollFlags="scroll"
+                   app:popupTheme="@style/AppTheme.PopupOverlay">
+
+                   <include
+                       android:visibility="gone"
+                       android:id="@+id/tool_bar"
+                       layout="@layout/toolbar_new"
+                       />
+
+               </androidx.appcompat.widget.Toolbar>
+           </com.google.android.material.appbar.AppBarLayout>
+
+
+           <ImageView
+               android:layout_marginVertical="40dp"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:scaleType="centerCrop"
+               android:layout_gravity="center"
+               android:src="@drawable/awamileaguelogo"/>
+
+
+           <RelativeLayout
+               android:layout_width="wrap_content"
+               android:layout_height="40dp"
+               android:id="@+id/search_lyt"
+               android:layout_marginHorizontal="@dimen/margin_20"
+               android:background="@drawable/search_bg"
+               >
+
+               <EditText
+                   android:id="@+id/search_text"
+                   style="@style/EditText.Flat.Grey"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_centerVertical="true"
+                   android:layout_gravity="center"
+                   android:layout_marginStart="20dp"
+                   android:layout_marginEnd="20dp"
+                   android:background="@null"
+                   android:clickable="true"
+                   android:drawableEnd="@drawable/ic_search"
+                   android:drawableRight="@drawable/ic_search"
+                   android:focusable="true"
+                   android:focusableInTouchMode="true"
+                   android:hint="@string/type_keyword"
+                   android:imeOptions="actionDone"
+                   android:inputType="text"
+                   android:singleLine="true"
+                   android:textColor="@color/black" />
+           </RelativeLayout>
+
+           <androidx.recyclerview.widget.RecyclerView
+               android:id="@+id/card_rv"
+               android:layout_gravity="center"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               tools:listitem="@layout/card_item"
+               android:layout_marginTop="30dp"/>
+
+
+       </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_form_add"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="125dp"/>
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_alignParentBottom="true"
+           android:scaleType="fitEnd"
+           android:src="@drawable/downside_flag" />
+   </RelativeLayout>
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

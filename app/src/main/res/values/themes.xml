@@ -1,0 +1,148 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DigitalUpload" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColorHint">@color/grey_20</item>
+        <item name="android:editTextColor">@color/colorPrimary</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/grey_20</item>
+        <item name="android:buttonStyle">@style/Widget.MaterialComponents.Button</item>
+        <item name="textInputStyle">@style/Base.Widget.MaterialComponents.TextInputLayout</item>
+        <item name="floatingActionButtonStyle">@style/FloatingActionButtonStyle</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+    </style>
+
+    <!-- Customize your theme here. -->
+    <style name="MyPositiveButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.Button" parent="Widget.AppCompat.Button">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="backgroundColor">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Base.Widget.MaterialComponents.TextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="android:textColorHint">@color/grey_20</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCollapsedPaddingTop">0dp</item>
+        <item name="boxStrokeColor">@color/mtrl_outlined_stroke_color</item>
+        <item name="boxStrokeErrorColor">@color/mtrl_error</item>
+        <item name="boxStrokeWidth">@dimen/mtrl_textinput_box_stroke_width_default</item>
+        <item name="boxStrokeWidthFocused">@dimen/mtrl_textinput_box_stroke_width_focused</item>
+        <item name="counterOverflowTextAppearance">?attr/textAppearanceCaption</item>
+        <item name="counterOverflowTextColor">@color/mtrl_error</item>
+        <item name="counterTextAppearance">?attr/textAppearanceCaption</item>
+        <item name="counterTextColor">@color/mtrl_indicator_text_color</item>
+        <item name="endIconTint">@color/mtrl_outlined_icon_tint</item>
+        <item name="enforceMaterialTheme">true</item>
+        <item name="enforceTextAppearance">true</item>
+        <item name="errorIconDrawable">@drawable/mtrl_ic_error</item>
+        <item name="errorIconTint">@color/mtrl_error</item>
+        <item name="errorTextAppearance">?attr/textAppearanceCaption</item>
+        <item name="errorTextColor">@color/mtrl_error</item>
+        <item name="helperTextTextAppearance">?attr/textAppearanceCaption</item>
+        <item name="helperTextTextColor">@color/mtrl_indicator_text_color</item>
+        <item name="hintTextAppearance">?attr/textAppearanceCaption</item>
+        <item name="hintTextColor">?attr/colorAccent</item>
+        <item name="placeholderTextAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="placeholderTextColor">@color/mtrl_indicator_text_color</item>
+        <item name="prefixTextAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="prefixTextColor">@color/mtrl_indicator_text_color</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceSmallComponent</item>
+        <item name="shapeAppearanceOverlay">@null</item>
+        <item name="startIconTint">@color/mtrl_outlined_icon_tint</item>
+        <item name="suffixTextAppearance">?attr/textAppearanceSubtitle1</item>
+        <item name="suffixTextColor">@color/mtrl_indicator_text_color</item>
+    </style>
+
+    <style name="dropdown" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+        <item name="boxStrokeColor">@color/grey_20</item>
+        <item name="android:textColorHint">@color/grey_20</item>
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="endIconTint">@color/black</item>
+        <item name="colorSurface">#444444</item>
+    </style>
+
+    <style name="TextAppearance.Title" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+    <style name="TextAppearance.Medium.Bold" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.Small" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Theme.DigitalUpload.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+    <style name="EditText.GreySoft" parent="@style/Theme.DigitalUpload">
+        <item name="colorControlActivated">@color/grey_40</item>
+        <item name="colorControlHighlight">@color/grey_40</item>
+        <item name="colorControlNormal">@color/grey_20</item>
+    </style>
+    <style name="CardWidgetStyle" parent="@android:style/Theme.DeviceDefault">
+        <item name="editTextStyle">@style/EditTextOverride</item>
+        <item name="android:editTextStyle">@style/EditTextOverride</item>
+    </style>
+    <style name="EditTextOverride" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/grey_40</item>
+        <item name="android:textColorHint">@color/grey_20</item>
+    </style>
+    <style name="DefaultTheme" parent="Theme.DigitalUpload.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="EditText.Flat.Grey" parent="@style/Theme.DigitalUpload">
+        <item name="android:textColorHint">@color/grey_20</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Subhead</item>
+        <item name="android:textColor">@color/grey_40</item>
+    </style>
+    <style name="FloatingActionButtonStyle" parent="Widget.Design.FloatingActionButton">
+        <item name="shapeAppearanceOverlay">@style/FabShapeStyle</item>
+    </style>
+    
+    <style name="FabShapeStyle" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">50%</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">cut</item>
+    </style>
+</resources>

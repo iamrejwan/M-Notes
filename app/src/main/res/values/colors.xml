@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#b60000</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#b60000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="default_text">#8B8B8B</color>
+    <color name="black">#000000</color>
+    <color name="black_window">#111111</color>
+    <color name="black_window_light">#131313</color>
+    <color name="nav_bg">#424242</color>
+    <color name="nav_head_bg">#202020</color>
+
+    <color name="dark">#424242</color>
+    <color name="black_1_transarent">#ED111111</color>
+    <color name="black_transparent">#2D000000</color>
+    <color name="grey_transparent">#417C7C7C</color>
+    <color name="grey_transparent2">#E97C7C7C</color>
+
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="overlay_dark_30">#4D000000</color>
+    <color name="overlay_dark_40">#66000000</color>
+    <color name="overlay_dark_90">#E6000000</color>
+
+    <color name="grey_100">#ff222222</color>
+    <color name="grey_11">#ffacacac</color>
+    <color name="grey_20">#ff7f7f7f</color>
+    <color name="grey_40">#ff999999</color>
+    <color name="grey_5">#fff2f2f2</color>
+    <color name="grey_50">#ff333333</color>
+    <color name="grey_60">#ff747474</color>
+    <color name="grey_90">#ff263238</color>
+    <color name="grey_subline">#e6dadada</color>
+
+    <color name="indigo_400">#5C6BC0</color>
+    <color name="light_green_400">#9CCC65</color>
+    <color name="blue_400">#42A5F5</color>
+    <color name="orange_400">#FFA726</color>
+
+
+    <color name="fragment_featured_overlay_start">#00121212</color>
+    <color name="fragment_featured_end">@color/mWindowColorBg</color>
+    <color name="fragment_featured_overlay_center">#66121212</color>
+    <color name="mWindowColorBg">#000000</color>
+    <color name="mWindowColorHeaders">#121212</color>
+    <!--Material color list from https://material.io/guidelines/style/color.html-->
+
+    <color name="red_600">#E53935</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="blue_grey_300">#90A4AE</color>
+    <color name="red_400">#EF5350</color>
+    <color name="blue_grey_400">#78909C</color>
+    <color name="light_theme_color">#FFFFFF</color>
+    //bottom navigation for dark mood
+    <color name="bottomifyBackgroundColorDark">#222327</color>
+
+    //bottom navigation for light mood
+    <color name="gradient_end">@color/colorAccent</color>
+    <color name="gradient_start">#fabb6a</color>
+    <color name="gradient_centre">@color/colorAccent</color>
+    <color name="overlay_grey_30">#40cccccc</color>
+    <color name="overlay_grey_40">#40a1a1a1</color>
+    <color name="EpisodeAccent">#80ffcd0b</color>
+    <color name="overlay_dark_50">#b3000000</color>
+    <color name="grey_80">#131313</color>
+    <color name="transparent">#00ffffff</color>
+</resources>

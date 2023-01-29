@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Digital Upload</string>
+
+    <string name="login" translatable="false">Login</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="deactivate_account">Deactivate Account</string>
+    <string name="deactive_account_text">If you do not want to use this account you can de-active easily.</string>
+    <string name="reason_to_deactivate_account">Reason to deactivate account</string>
+    <string name="signup">Sign Up</string>
+    <string name="forgot_password">Forgot password ?</string>
+    <string name="new_user">New user?</string>
+    <string name="new_password_optional">New Password (Optional)</string>
+    <string name="current_password">Current Password</string>
+    <string name="set_password">Set Password</string>
+    <string name="signin">Signin</string>
+    <string name="reset">Reset Password</string>
+    <string name="register">Register</string>
+    <string name="full_name">সম্পুর্ণ নাম</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="save">Save</string>
+    <string name="phone_number">মোবাইল নম্বর</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="type_keyword">খুঁজুন</string>
+    <string name="signinto_app">Sign-in to Digital Upload</string>
+    <string name="signinto_app_subline">Log into your account to sync data across all devices.</string>
+    <string name="submit">Submit</string>
+    <string name="rank">পদ</string>
+    <string name="address">ঠিকানা</string>
+    <string name="update">Update</string>
+    <string name="category">Category</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="error_toast">Something went wrong ! try later</string>
+    <string name="task_cancelled">Task Cancelled</string>
+    <string name="success_toast">"Data submitted successfully!"</string>
+    <string name="add_form">ব্যক্তি সংযুক্ত করুন</string>
+    <string name="no_item_found">কোন তথ্য পাওয়া যায়নি</string>
+    <string name="edit">Edit</string>
+    <string name="wrong_password">Password is wrong!</string>
+    <string name="passcode_title">Enter a passcode of 5 digits</string>
+    <string name="name_text">নাম</string>
+    <string name="phone_text">ফোন</string>
+
+</resources>

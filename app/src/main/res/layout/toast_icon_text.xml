@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/parent_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/grey_90"
+    app:cardCornerRadius="6.0dip"
+    app:cardElevation="0.0dip">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/spacing_smlarge"
+        android:paddingTop="@dimen/spacing_middle"
+        android:paddingRight="@dimen/spacing_smlarge"
+        android:paddingBottom="@dimen/spacing_middle"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip">
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@id/icon"
+            android:layout_width="14.0dip"
+            android:layout_height="14.0dip"
+            app:srcCompat="@drawable/ic_close"
+            app:tint="@android:color/white" />
+        <View
+            android:layout_width="@dimen/spacing_middle"
+            android:layout_height="0.0dip" />
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:fontFamily="@font/netflix_medium" />
+        <View
+            android:layout_width="@dimen/spacing_middle"
+            android:layout_height="0.0dip" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
